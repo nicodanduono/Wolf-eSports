@@ -1,26 +1,14 @@
 body {
     background-color: black;
     font-family: 'Noto Sans Mono', monospace;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
-}
-
-h1 {
-	text-align: center;
-    color: white;
-	font-size: 25px;
 }
 
 
 h2 {
 	text-align: center;
-	color: white;
-}
-
-h3 {
-	text-align: center;
-	color: white;
-	font-size: 15px;
+	color: black;
 }
 
 #logo {
@@ -28,40 +16,7 @@ h3 {
     margin: auto;
 	width: 250px;
 	height: 250px;
-}
-
-#menu-de-navegacion ul{
-    list-style: none;
-    text-align: center;
-    padding-top: 30px;
-	
-	display: flex;
-	justify-content: center;
-}
-
-
-#menu-de-navegacion ul li{
-    display: inline-block;
-	font-size: 25px;
-	font-family: 'Noto Sans Mono', serif;
-	font-weight: 700;
-}
-
-#menu-de-navegacion ul li a{
-    color: white;
-    padding: 5px 45px;
-	margin: auto;
-    text-decoration: none; 
-    text-align: center; 
-}
-
-#menu-de-navegacion ul li a:hover{
-    background-color: #f12a2a;
-	margin: auto;
-}
-
-.lista1 {
-    color: white;
+	padding: 25px;
 }
 
 .social-bar {
@@ -169,12 +124,14 @@ td, th {
     float: right;
     padding-right: 70px;
 	color: white;
+	font-size: 16px;
 }
 
 .item-izquierdo {
     float: left;
     padding-left: 70px;
 	color: white;
+	font-size: 16px;
 }
 
 .banner-horizontal {
