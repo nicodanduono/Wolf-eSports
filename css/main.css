@@ -161,11 +161,6 @@ td, th {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	justify-content: center;
-	@media {
-		max-width: 768px;
-		grid-template-columns: auto
-		
-	}
 
 }
 
