@@ -27,6 +27,8 @@ h2 {
 	flex-direction: column;
 	align-items: flex-start;
 	z-index: 100;
+
+	@media  (max-width: 768px)
 }
 
 .icon {
@@ -100,8 +102,6 @@ h2 {
 
 .whats-icon{
 	margin-top:16px;
-	transition: 0.1ms;
-	transform: scale(1.3, 1.3);
 }
 
 .tabla {

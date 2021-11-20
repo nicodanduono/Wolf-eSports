@@ -3429,11 +3429,11 @@ textarea.form-control-lg {
 }
 
 .btn-outline-dark {
-  color: #212529;
-  border-color: #212529;
+  color: white;
+  border-color: white;
 }
 .btn-outline-dark:hover {
-  color: #fff;
+  color: red;
   background-color: #212529;
   border-color: #212529;
 }
@@ -4498,9 +4498,8 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: black;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -7658,6 +7657,7 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+  color: white;
 }
 
 .text-decoration-none {
