@@ -148,12 +148,10 @@ td, th {
 }
 
 .row-container {
-    background-color: black;
-    padding: 20px;
-
 	display: grid;
 	grid-template-columns: auto auto auto;
 	justify-content: center;
+	align-items: center;
 
 }
 
@@ -211,19 +209,6 @@ td, th {
 	font-weight: 900;
 }
 
-.contenedor-grid {
-	display: grid;
-
-	grid-template-columns: auto auto auto;
-	justify-content: space-evenly;
-	row-gap: 100px;
-}
-
-.contenedor-grid div h2 {
-	color: white;
-	text-align: center;
-}
-
 .button-addToCart {
 	background-color: rgb(175, 56, 56);
 	color: white;
@@ -252,6 +237,13 @@ td, th {
 	
 	.columns-container {
 		grid-template-columns: auto;
+	}
+}
+
+@media (max-width: 767px) {
+	
+	.row-container {
+		grid-template-rows: auto;
 	}
 }
 
