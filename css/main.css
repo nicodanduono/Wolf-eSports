@@ -147,20 +147,6 @@ td, th {
 	text-align: center;
 }
 
-.row-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	justify-content: center;
-	align-items: center;
-
-}
-
-.row-container div {
-    padding: 5px;
-    border: solid 5px rgb(44, 43, 43);
-    margin: 30px;
-}
-
 .columns-container {
     display: grid;
 
@@ -237,13 +223,6 @@ td, th {
 	
 	.columns-container {
 		grid-template-columns: auto;
-	}
-}
-
-@media (max-width: 767px) {
-	
-	.row-container {
-		grid-template-rows: auto;
 	}
 }
 
