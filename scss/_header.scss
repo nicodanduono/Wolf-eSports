@@ -1,0 +1,67 @@
+#logo {
+    display: flex;
+    margin: auto;
+	width: 250px;
+	height: 250px;
+	padding: 25px;
+}
+
+
+.social-bar {
+	position: fixed;
+	left: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+
+    &-facebook {
+        background: #2E406E;
+    }
+    
+    &-twitter {
+        background: #339DC5;
+    }
+    
+    &-youtube {
+        background: #E83028;
+    }
+    
+    &-instagram {
+        background: #d47f39;
+    }
+    &-twitch {
+        background: rgb(179, 35, 171);
+    }
+    
+    &:first-child {
+        border-radius: 0 1rem 0 0;
+    }
+    
+    &:last-child {
+        border-radius: 0 0 1rem 0 ;
+    }
+    
+    &:hover {
+        padding-left: 3rem;
+        border-radius: 0 1rem 1rem 0;
+        box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    }
+}
+
+.banner {
+	position: top;
+    width: 100%;
+    height: 100px;
+	margin-top: 0px;
+}
