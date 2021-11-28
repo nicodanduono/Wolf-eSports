@@ -9,16 +9,27 @@
 $fondo: #000000;
 $texto: #FAFAFA;
 
+// Operaciones
+$padding: 30px;
+$font-size: 12px;
+$font-weight: 200px;
+
 body {
     background-color: $fondo;
     font-family: 'Noto Sans Mono', monospace;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: $font-size*2;
+    font-weight: $font-weight*3;
 }
 
 h2 {
 	text-align: center;
 	color: $texto;
+}
+
+h4 {
+    color: $texto;
+    background-color: $fondo;
+    text-align: center;
 }
 
 .whats-fix{
@@ -37,9 +48,9 @@ h2 {
 .button-addToCart {
 	background-color: rgb(175, 56, 56);
 	color: $texto;
-    padding: 15px;
+    padding: $padding/2;
 	margin: 20px auto;
-	font-size: 24px;
+	font-size: $font-size*2;
 	border-radius: 15px;
 	transition-duration: 0.4s;
 	
@@ -53,12 +64,6 @@ h2 {
         color: rgb(175, 56, 56);
         box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24);
     }
-}
-
-h4 {
-    color: $texto;
-    background-color: $fondo;
-    text-align: center;
 }
 
 /* Media Queries */
@@ -80,4 +85,16 @@ h4 {
 	.row-container {
 	grid-template-columns:	auto;
 	}
+}
+
+@mixin size($alto, $posicion, $margin) {
+    padding: $alto;
+    text-align: $posicion;
+    margin: $margin;
+}
+
+.mixin {
+    @include size(10px, center, 2rem);
+    color: $texto;    
+    background-color: rgb(175, 56, 56);
 }

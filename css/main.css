@@ -106,12 +106,17 @@
 body {
   background-color: #000000;
   font-family: 'Noto Sans Mono', monospace;
-  font-size: 20px;
-  font-weight: 600; }
+  font-size: 24px;
+  font-weight: 600px; }
 
 h2 {
   text-align: center;
   color: #FAFAFA; }
+
+h4 {
+  color: #FAFAFA;
+  background-color: #000000;
+  text-align: center; }
 
 .whats-fix {
   position: fixed;
@@ -141,11 +146,6 @@ h2 {
     color: #af3838;
     box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24); }
 
-h4 {
-  color: #FAFAFA;
-  background-color: #000000;
-  text-align: center; }
-
 /* Media Queries */
 @media (max-width: 1024px) {
   .columns-container {
@@ -158,3 +158,10 @@ h4 {
 @media (max-width: 767px) {
   .row-container {
     grid-template-columns: auto; } }
+
+.mixin {
+  padding: 10px;
+  text-align: center;
+  margin: 2rem;
+  color: #FAFAFA;
+  background-color: #af3838; }
