@@ -1,0 +1,10 @@
+.row-container {
+    display: grid;
+	grid-template-columns: auto auto auto;
+    
+    div {
+        padding: 2px;
+        border: solid 2px rgb(44, 43, 43);
+        margin: 20px;
+    }
+}
