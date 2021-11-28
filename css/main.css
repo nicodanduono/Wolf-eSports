@@ -156,7 +156,5 @@ h4 {
     display: none; } }
 
 @media (max-width: 767px) {
-	.row-container {
-	grid-template-columns:	auto;
-	}
-}
+  .row-container {
+    grid-template-columns: auto; } }
