@@ -151,8 +151,12 @@ h4 {
   .columns-container {
     grid-template-columns: auto; } }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .social-bar {
+    display: none; } }
+
+@media only screen and (max-width: 767px) {
+  .whats-icon {
     display: none; } }
 
 @media (max-width: 767px) {
