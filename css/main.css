@@ -27,13 +27,12 @@
 
 .parrafo {
   color: white;
-  font-size: 12px; }
+  font-size: 25px; }
 
 .titulo-news {
   color: red;
-  font-style: bold;
-  font-family: 'Roboto';
-  font-weight: 900; }
+  font-family: Helvetica, sans-serif;
+  font-weight: 700; }
 
 #logo {
   display: flex;
@@ -153,10 +152,6 @@ h4 {
 
 @media only screen and (max-width: 768px) {
   .social-bar {
-    display: none; } }
-
-@media only screen and (max-width: 767px) {
-  .whats-icon {
     display: none; } }
 
 @media (max-width: 767px) {
